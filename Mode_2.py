@@ -51,5 +51,5 @@ def calculation_mode_2(num):
 
     score = (right / count)*100
 
-    print("Your score is:")
+    print("Your  score  is:")
     print(score)
