@@ -7,12 +7,12 @@ def calculation_mode_1(num):
     count = 0
     right = 0
     while num > 0:
-        # determine the inquiry tips
+        #  determine the inquiry tips
         num_1 = random.randint(0,100)
         num_2 = random.randint(0,100)
         num_1_str = str(num_1)
         num_2_str = str(num_2)
-        op = ["+", "-"]
+        op = [" + ", " - "]
         rand_op = random.choice(op)
         print('Output: '+num_1_str+rand_op+num_2_str+'=?')
         user_input = input("Input: ")
@@ -26,7 +26,7 @@ def calculation_mode_1(num):
             count += 1  # total number plus 1
 
         elif user_input == str (result2) and rand_op == "-":  # subtraction case
-            print("Good job!")
+            print(" Good job! ")
             right += 1
             count += 1
 
@@ -38,5 +38,5 @@ def calculation_mode_1(num):
 
     score = (right / count)*100
 
-    print("Your score is:")
+    print(" Your score is: ")
     print(score)
