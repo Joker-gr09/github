@@ -33,7 +33,7 @@ def calculation_mode_2(num):
             right += 1
             count += 1
 
-        elif user_input == str (result3) and rand_op == " * ":  # multiply case
+        elif user_input == str (result3) and rand_op == "*":  # multiply case
             print("Good job!")
             right += 1
             count += 1
@@ -47,11 +47,9 @@ def calculation_mode_2(num):
             print("Wrong Answer!")
             count += 1
 
-
         num -= 1
 
     score = (right / count)*100
-
 
     print("Your score is:")
     print(score)

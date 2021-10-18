@@ -5,7 +5,6 @@
 import random
 
 
-
 def calculation_mode_3(num):
     count = 0
     right = 0
@@ -15,7 +14,6 @@ def calculation_mode_3(num):
         nm_2 = random.uniform()
         op = ["+", "-", "*", "/"]
         type_num =[nm_1, nm_2]
-
 
         # randomly select the float number or integer number
         num_1 = random.choice(type_num)
@@ -30,13 +28,11 @@ def calculation_mode_3(num):
         result3 = num_1 * num_2
         result4 = num_1 / num_2
 
-
         # determine the answer condition
         if user_input == str(result1) and rand_op == "+":  # add case
             print("Good job!")
             right += 1  # right answer number plus 1
             count += 1  # total number plus 1
-
 
         elif user_input == str (result2) and rand_op == "-":  # subtraction case
             print("Good job!")
@@ -58,7 +54,6 @@ def calculation_mode_3(num):
             count += 1
 
         num -= 1
-
 
     score = (right / count)*100
 

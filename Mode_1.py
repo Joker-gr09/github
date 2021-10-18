@@ -19,29 +19,24 @@ def calculation_mode_1(num):
         result1 = num_1 + num_2
         result2 = num_1 - num_2
 
-
         # determine the answer condition
         if user_input == str(result1) and rand_op == "+":  # add case
             print("Good job!")
             right += 1  # right answer number plus 1
             count += 1  # total number plus 1
 
-
         elif user_input == str (result2) and rand_op == "-":  # subtraction case
             print("Good job!")
             right += 1
             count += 1
 
-
         else:    # wrong answer
             print("Wrong Answer!")
             count += 1
 
-
         num -= 1
 
     score = (right / count)*100
-
 
     print("Your score is:")
     print(score)
