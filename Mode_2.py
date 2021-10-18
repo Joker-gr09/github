@@ -9,8 +9,8 @@ def calculation_mode_2(num):
     right = 0
     while num > 0:
         # determine the inquiry tips
-        num_1 = random.randint()
-        num_2 = random.randint(1)   # for the division case
+        num_1 = random.randint(0,999)
+        num_2 = random.randint(1,999)   # for the division case
         num_1_str = str(num_1)
         num_2_str = str(num_2)
         op = ["+", "-", "*", "/"]
