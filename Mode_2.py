@@ -24,7 +24,7 @@ def calculation_mode_2(num):
 
         # determine the answer condition
         if user_input == str(result1) and rand_op == "+":  # add case
-            print("Good job!")
+            print(" Good job !")
             right += 1  # right answer number plus 1
             count += 1  # total number plus 1
 
