@@ -3,6 +3,7 @@
 import random
 
 
+
 def calculation_mode_1(num):
     count = 0
     right = 0
@@ -38,5 +39,6 @@ def calculation_mode_1(num):
 
     score = (right / count)*100
 
-    print("Your score is:")
+
+    print("Your  score  is:")
     print(score)
