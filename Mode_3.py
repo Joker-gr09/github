@@ -60,4 +60,4 @@ def calculation_mode_3(num):
     score = (right / count)*100
 
     print("Your score is:")
-    print(score)
+    print(round(score,2))
