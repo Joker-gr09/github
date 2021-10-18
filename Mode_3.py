@@ -10,10 +10,12 @@ def calculation_mode_3(num):
     right = 0
     while num > 0:
         # determine the inquiry tips
-        nm_1 = random.randint()
-        nm_2 = random.uniform()
+        nm_1 = random.randint(0,999)
+        nm_2 = round(random.uniform(0,999), 2)   # at most 2 digits
+        nm_3 = random.randint(0, 999)
+        nm_4 = round(random.uniform(0, 999), 2)  # at most 2 digits
         op = ["+", "-", "*", "/"]
-        type_num =[nm_1, nm_2]
+        type_num =[nm_1, nm_2, nm_3, nm_4]
 
         # randomly select the float number or integer number
         num_1 = random.choice(type_num)
